@@ -3,17 +3,17 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=pymeo
-qgisMinimumVersion=3.0
+name=PyMEO
+qgisMinimumVersion=3.34
 description=Plugin QGIS desenvolvido em Python para calcular o valor da Média de Enchentes Ordinárias (MEO).
-version=0.1
-author=CGGEO
-email=cggeo@gestao.gov.br
+version=1.0
+author=SPU
+email=regina.silva@gestao.gov.br;cggeo@gestao.gov.br
 
-about=Provide a brief description of the plugin and its purpose.
+about=Plugin QGIS desenvolvido em Python para calcular o valor da Média de Enchentes Ordinárias (MEO).
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/spuhub/Pymeo.git
+repository=https://github.com/spuhub/Pymeo.git
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,13 +23,13 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python;meo;api
 
-homepage=http://homepage
+homepage=https://github.com/spuhub/Pymeo
 category=Plugins
-icon=pymeoV2/images/pymeo.png
+icon=icon.png
 # experimental flag
-experimental=False
+experimental=True
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
