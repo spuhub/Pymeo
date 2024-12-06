@@ -25,7 +25,7 @@
 import subprocess
 import sys
 
-
+# Testando comentario novamente23
 dirPython = f"{sys.prefix}\\python.exe"
 subprocess.check_call([dirPython, "-m", "pip", "install", "--upgrade", "pip"])
 
